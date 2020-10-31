@@ -1,0 +1,13 @@
+{
+    "name": "b2/skeleton",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\":"App/",
+            "Lib\\":"Lib/",
+            "Core\\":"Core/"
+        }
+    },
+    "require": {
+    }
+}

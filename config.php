@@ -1,6 +1,6 @@
 <?php
 
-
+_dump($_SERVER);
 /**
  * Environment
  */
@@ -19,7 +19,7 @@ define('DB_PASSWORD', 'qwerty');
 
 define('APP_ROOT','Skeleton/');
 define('BASE_PATH', __DIR__ . '/');
-define('BASE_URL', $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/');
+define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/');
 define('CONTROLLER_NS', 'App\controllers\\');
 define('DEFAULT_CONTROLLER', 'Main');
 define('VIEW_PATH', 'App/view/');

@@ -1,13 +1,20 @@
 {
-    "name": "b2/skeleton",
+    "name": "baku/skeleton",
+    "description": "PHP Micro framework with a very less footprint",
     "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "b2k8786",
+            "email": "b2k8786@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "App\\":"App/",
-            "Lib\\":"Lib/",
-            "Core\\":"Core/"
+            "App\\": "App/",
+            "Lib\\": "Lib/",
+            "Core\\": "Core/"
         }
-    },
-    "require": {
     }
 }

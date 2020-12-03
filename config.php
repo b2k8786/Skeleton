@@ -1,6 +1,5 @@
 <?php
 
-_dump($_SERVER);
 /**
  * Environment
  */
